@@ -2,11 +2,13 @@ package ru.netology;
 
 import static ru.netology.Calculator.Operation.*;
 
-public class IntsCalculator implements Ints{
+public class IntsCalculator implements Ints {
 
     protected final Calculator target;
 
-    public IntsCalculator() { this.target = new Calculator(); }
+    public IntsCalculator() {
+        this.target = new Calculator();
+    }
 
 
     @Override
